@@ -1,0 +1,28 @@
+body {
+    background-color: #191919;
+    color: bisque;
+
+    font-family: monospace;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100vh;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    overflow: hidden;
+}
+
+#span {
+    font-size: 200px;
+}
+
+#counter {
+    font-size: 70px;
+}
